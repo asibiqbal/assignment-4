@@ -12,15 +12,38 @@ body {
 }
 
 .main-container {
-    width: 400px;
+    width: 450px;
     background: white;
-    text-align: center;
     margin: 100px auto;
-    padding: 20px 0 20px;
+    padding: 20px 20px 20px 20px;
     border-radius: 10px;
+    text-align: center;
 }
 
 .main-container h1 {
     font-weight: 600;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 span {
+    color: #4070F4;
+}
+
+form input {
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+    padding: 12px 12px;
+    border: 2px solid #E2E2E2;
+    border-radius: 5px;
+}
+
+form input::placeholder {
+    font-size: 16px;
+}
+
+
+form input:focus {
+    outline-color: #4070F4;
 }
