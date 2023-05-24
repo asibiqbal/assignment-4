@@ -1,0 +1,109 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(82, 138, 137);
+    background: linear-gradient(90deg, rgba(82, 138, 137, 1) 0%, rgba(85, 141, 140, 1) 50%, rgba(102, 119, 147, 1) 100%);
+}
+
+.main-container {
+    width: 450px;
+    background: white;
+    margin: 80px auto;
+    padding: 30px 20px 20px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.main-container h1 {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+h1 span {
+    color: #4070F4;
+}
+
+
+
+form input {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 12px 12px;
+    border: 2px solid #E2E2E2;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+form input:focus {
+    outline-color: #4070F4;
+}
+
+.form-icon {
+    position: relative;
+}
+
+.form-icon i {
+    position: absolute;
+    top: 14px;
+    left: 180px;
+    color: #828585;
+}
+
+
+.btn {
+    width: 96%;
+    background: #0171D3;
+    color: white;
+    font-size: 16px;
+    padding: 14px 0px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.check {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.check input {
+    margin-right: 10px;
+}
+
+.check-link {
+    text-decoration: underline;
+    margin-left: 0;
+}
+
+p a {
+    color: #0171D3;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+
+.signup {
+    margin-top: 35px;
+    background: rgb(157, 174, 228);
+    background: linear-gradient(90deg, rgba(157, 174, 228, 1) 0%, rgba(148, 191, 225, 1) 50%, rgba(117, 232, 215, 1) 100%);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}

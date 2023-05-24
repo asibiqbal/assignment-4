@@ -110,14 +110,14 @@ p a {
 .btn-fb i {
     position: absolute;
     font-size: 25px;
-    top: 12px;
+    top: 11px;
     left: 12px;
 }
 
 .btn-ggle i {
     position: absolute;
     font-size: 25px;
-    top: 12px;
+    top: 11px;
     left: 12px;
     background: -webkit-linear-gradient(#EC5A4E, #FBBC06, #35A854, #4788F5);
     -webkit-background-clip: text;
