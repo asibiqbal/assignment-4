@@ -72,6 +72,7 @@ form input:focus {
 p a {
     color: #0171D3;
     text-decoration: none;
+    margin-left: 5px;
 }
 
 .or {
