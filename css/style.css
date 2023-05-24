@@ -14,15 +14,14 @@ body {
 .main-container {
     width: 450px;
     background: white;
-    margin: 100px auto;
-    padding: 20px 20px 20px 20px;
+    margin: 80px auto;
+    padding: 30px 20px 20px 20px;
     border-radius: 10px;
     text-align: center;
 }
 
 .main-container h1 {
     font-weight: 600;
-    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -46,4 +45,87 @@ form input::placeholder {
 
 form input:focus {
     outline-color: #4070F4;
+}
+
+.eye {
+    position: relative;
+}
+
+.eye i {
+    position: absolute;
+    top: 14px;
+    left: 180px;
+    color: #828585;
+}
+
+.btn {
+    width: 96%;
+    background: #0171D3;
+    color: white;
+    font-size: 16px;
+    padding: 14px 0px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+p a {
+    color: #0171D3;
+    text-decoration: none;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 0px 9px;
+    width: 96%;
+}
+
+.or hr {
+    width: 45%;
+}
+
+.or p {
+    width: 10%;
+    color: #828585;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.btn-fb {
+    background-color: #4267B2;
+    width: 96%;
+    color: white;
+    font-size: 16px;
+    padding: 14px 0px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+
+.btn-fb i {
+    position: absolute;
+    font-size: 25px;
+    top: 12px;
+    left: 12px;
+}
+
+.btn-ggle i {
+    position: absolute;
+    font-size: 25px;
+    top: 12px;
+    left: 12px;
+    background: -webkit-linear-gradient(#EC5A4E, #FBBC06, #35A854, #4788F5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-ggle {
+    background-color: transparent;
+    color: #828585;
+    border: 1px solid #828585;
+    position: relative;
 }
